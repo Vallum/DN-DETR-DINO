@@ -263,7 +263,26 @@ python main.py -m dn_dab_detr \
   --coco_path /path/to/your/COCODIR  # replace the args to your COCO path
   --use_dn
 ```
-
+```
+# for dn_dab_dino_deformable_detr
+python -u main.py \
+    -m dn_dab_dino_deformable_detr \
+    --output_dir logs/dn_dino_deformable_detr/R50 \
+    --batch_size 2 \
+    --epochs 12\
+    --lr_drop 11 \
+    --transformer_activation relu \
+    --coco_path /path/to/your/COCODIR  # replace the args to your COCO path \
+    --use_dn \
+    --num_queries 900 \
+    --num_results 300 \
+    --contrastive \
+    --use_mqs \
+    --use_lft \
+    --scalar 200 \
+    --label_noise_scale 0.5 \
+    --two_stage
+```
 
 ### Distributed Run
 However, as the training is time consuming, we suggest to train the model on multi-device.
