@@ -143,6 +143,35 @@ You can also refer to our
   </tbody>
 </table>
 
+### DN-DAB-DINO-Deformable-DETR
+<table>
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>backbone</th>
+      <th>box AP</th>
+      <th>Checkpoint</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>DN-DAB-DINO-DETR-R50-DC4(12 epochs)</td>
+      <td>R50</td>
+      <td>48.8</td>
+      <td><a href="https://drive.google.com/file/d/1xqMbQFY9Ja-3PDtyIY-DOUXpfbh9_Npf/view?usp=sharing">Google Drive</a></td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>DN-DAB-DINO-DETR-R50-DC4(36 epochs)</td>
+      <td>R50</td>
+      <td>50.6</td>
+      <td><a href="https://drive.google.com/file/d/1WWHZOCdE0aqIDA7vHWfC84dWzIJWXqYy/view?usp=sharing">Google Drive</a></td>
+    </tr>
+  </tbody>
+</table>
+
 Notes: 
 - <sup><a id="sup1" herf="#sup1c">1</a></sup>: The result increases compared with the reported one in our paper (from ```44.1```to ```44.4```) since we optimized the code. We did not rerun other models, so
   <font color=red>**you are expected to get better performance than reported ones in our paper**.</font>
